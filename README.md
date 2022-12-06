@@ -41,7 +41,7 @@ Within the initiative we will need to define different levels for some dimension
 By using annotations a container its coordinates within these dimensions. E.g.
 
 |               | Portability | MPI Type | Network type/ABI | libc | Kernel ABI |
-| ------------- | ------------- | ------- | ------ | ---- |
+| ------------- | ------------- | ------- | ------ | ---- | --- |
 | gromacs/mpich:2021.5@sha256:abc | medium | OpenMPI 4.3 | libfabric 1.15 | glibc 2.12 | 5.4 |
 
 
