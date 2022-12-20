@@ -25,7 +25,7 @@ And what happens if a user (or scheduler) overwrites the `ENTRYPOINT`? Are all b
 
 ### Annotations
 
-Downloading a potentially huge container image as a black box and learn afterwards that it does not work on the execution environment, with the scheduler at hand or with the use-case in mind is frustrating.
+Downloading a potentially huge container image as a black box and learn afterwards that it does not work on the execution environment, with the scheduler at hand or with the use-case in mind is frustrating. [This blog post](https://snyk.io/blog/how-and-when-to-use-docker-labels-oci-container-annotations/) provides some general guidance.
 
 This initiative thrives to help with that by defining a set of annotations for container images to assist end users, admins and container builders. 
 1. **Container Expectations**: Drive an automated assesement whether a given container will work on a given execution environment.
